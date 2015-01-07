@@ -1,8 +1,17 @@
-.body {
+/* Move down content because we have a fixed navbar that is 50px tall */
+/*body {
+	padding-top: 50px;
+	padding-bottom: 20px;
+}*/
+/*.body {*/
+body {
 	font-family: "Open Sans";
 	font-size: 14px;
 	font-weight: 400;
 	color: #545554;
+
+	padding-top: 50px;
+	/*padding-bottom: 20px;*/
 }
 
 .p {
@@ -68,6 +77,3 @@ a.btn-default {
 	height: 200px;
 	text-align: center;
 }
-
-
-
