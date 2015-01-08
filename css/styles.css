@@ -28,7 +28,12 @@ p {
 }
 
 .navbar-header{
-	margin-top: 14px;
+	margin-top: 12px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #fff;
+	font-size: 12px;
 }
 
 #first{
@@ -77,6 +82,9 @@ h2 {
 	font-weight: 700;
 }
 
+h2.titlebold {
+	color: #fff;
+}
 
 a.btn-default {
  font-family: "Open Sans";
@@ -108,4 +116,12 @@ a.btn.btn-default:hover {
 
 .add-top-separation {
 	margin-top: 20px;
+}
+
+.linkfooter {
+	color: #00CC99;;
+}
+
+.footer-image {
+	margin-right: 70px;
 }
