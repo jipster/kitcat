@@ -6,7 +6,7 @@
 /*.body {*/
 body {
 	font-family: "Open Sans";
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 400;
 	color: #545554;
 
@@ -14,9 +14,9 @@ body {
 	/*padding-bottom: 20px;*/
 }
 
-.p {
+p {
 	font-family: "Open Sans";
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 400;
 	text-align: center;
 	color: #545554;
@@ -31,40 +31,67 @@ body {
 	margin-top: 14px;
 }
 
-.row-first{
+#first{
 	text-align: center;
 	color: #474747;
 	background-color: #EEEEEE;
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
+
+#registro {
+	text-align: center;
+	background-color: #00CC99;
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
+
+#objetivos {
+	text-align: center;
+	background-color: #EEEEEE;
+	padding-top: 50px;
+	padding-bottom: 80px;
+}
+
+#herramientas {
+	text-align: center;
+	background-color: #D4D4D4;
+	padding-top: 50px;
+	padding-bottom: 80px;
+}
+
+#miembros {
+	background-color: #00CC99;
 	width: 100%;
-	height: 150px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 50px;
 }
 
-.row-registro {
-	text-align: center;
+h2.titulo {
+	font-weight: 700;
+	margin-bottom: 60px;
 }
 
-.row-objetivos {
-	text-align: center;
+h2 {
+	font-weight: 700;
 }
 
-.row-herramientas {
-	text-align: center;
-}
 
 a.btn-default {
  font-family: "Open Sans";
  background-color: #545554;
  color: #fff;
+ border-color: #545554;
+ font-weight:700;
+ font-size: 14px;
 
 }
 
-.btn-default:hover {
-	background-color: darken (#545554, 5%);
-}
-
-.row-miembros {
-	background-color: #00CC99;
-	width: 100%;
+a.btn.btn-default:hover {
+	background-color: #444444;
+	border-color: #444444;
+	color: #fff;
 }
 
 .col-md-4 {
@@ -76,4 +103,9 @@ a.btn-default {
 	background-color: #545554;
 	height: 200px;
 	text-align: center;
+	padding-top: 50px;
+}
+
+.add-top-separation {
+	margin-top: 20px;
 }
