@@ -192,14 +192,35 @@ td {
   color: #000;
 }
 
+td a {
+color:#30cc99;
+}
 
+/* Selector Columna de hora */
+tr:nth-child(even) td:nth-child(odd){ background-color: #ffffff; }
+tr:nth-child(odd) td:nth-child(odd){ background-color: #ffffff; }
+thead tr:first-child td:nth-child(odd){ background-color: transparent; }
+
+/* Selector de colores intercalados en columnas */
 tr:nth-child(even) td:nth-child(even){ background-color: #D4D4D4; }
-tr:nth-child(odd) td:nth-child(even){ background-color: #30cc94; }
+tr:nth-child(odd) td:nth-child(even){ background-color: #ffffff; }
+
+/* Selector de tablas embebidas */
 tr:nth-child(even) td:nth-child(even) tr td { background-color: transparent; }
 tr:nth-child(odd) td:nth-child(even) tr td{ background-color: transparent; }
+
+/* Selector del nombre de las columnas*/
 thead tr:first-child td:nth-child(even){ background-color: transparent; }
 
-
+/* Selectores filas con hover */
+tr:nth-child(even):hover td:nth-child(odd){ background-color: #30cc99; }
+tr:nth-child(odd):hover td:nth-child(odd){ background-color: #30cc99; }
+tr:nth-child(even):hover td:nth-child(even){ background-color: #30cc99; }
+tr:nth-child(odd):hover td:nth-child(even){ background-color: #30cc99; }
+tr:nth-child(even):hover td:nth-child(even) a { color: #337ab7; }
+tr:nth-child(odd):hover td:nth-child(even) a { color: #337ab7; }
+thead tr:first-child:hover td:nth-child(odd){ background-color: transparent; }
+thead tr:first-child:hover td:nth-child(even){ background-color: transparent; }
 
 div.table table.table {
   background-color: transparent;
