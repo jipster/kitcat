@@ -1,49 +1,22 @@
-/* Move down content because we have a fixed navbar that is 50px tall */
-/*body {
-	padding-top: 50px;
-	padding-bottom: 20px;
-}*/
-/*.body {*/
-body {
-	font-family: "Open Sans";
-	font-size: 16px;
-	font-weight: 400;
-	color: #545554;
+.container {
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
 
-	padding-top: 50px;
-	/*padding-bottom: 20px;*/
-}
-
-p {
-	font-family: "Open Sans" !important;
-	font-size: 16px;
-	font-weight: 400;
-	text-align: center;
-	color: #545554;
-}
-
-.navbar-inverse {
-    background-color: #545554;
-    border-color: #545554;
-}
-
-.navbar-header{
-	margin-top: 12px;
-}
-
-.navbar-inverse .navbar-nav>li>a {
-	color: #fff;
-	font-size: 12px;
+	padding-left: 0;
+	padding-right: 0;
 }
 
 .large-container {
 	max-width: 1140px;
-	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .medium-container {
   max-width: 600px;
-  margin: auto;
+  margin-left: auto;
+	margin-right: auto;
 }
 
 #first{
@@ -93,10 +66,6 @@ p {
 h2.titulo {
 	font-weight: 700;
 	margin-bottom: 60px;
-}
-
-h2 {
-	font-weight: 700;
 }
 
 h2.titlebold {
@@ -162,10 +131,6 @@ a:hover, a:active, a:focus {
   text-decoration: none;
 }
 
-/*.col-md-4 {
-	text-align: center;
-}*/
-
 .add-top-separation {
 	margin-top: 20px;
 }
@@ -176,34 +141,4 @@ a:hover, a:active, a:focus {
 
 .footer-image {
 	margin-right: 70px;
-}
-
-/* Table */
-
-table {
-  border-collapse: separate;
-  border-spacing: 10px 20px;
-}
-
-.table {
-	text-align:left;
-}
-
-td {
-  vertical-align: top;
-  padding: 0.86em;
-  color: #000;
-}
-
-
-tr:nth-child(even) td:nth-child(even){ background-color: #D4D4D4; }
-tr:nth-child(odd) td:nth-child(even){ background-color: #30cc94; }
-tr:nth-child(even) td:nth-child(even) tr td { background-color: transparent; }
-tr:nth-child(odd) td:nth-child(even) tr td{ background-color: transparent; }
-thead tr:first-child td:nth-child(even){ background-color: transparent; }
-
-
-
-div.table table.table {
-  background-color: transparent;
 }

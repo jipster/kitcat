@@ -6,7 +6,11 @@
   <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href= "css/bootstrap.min.css" rel= "stylesheet">
-	<link href= "css/styles.css" rel= "stylesheet">
+	<!-- Local css -->
+	<link href= "css/styles/elements.css" rel= "stylesheet">
+	<link href= "css/styles/navbar.css" rel= "stylesheet">
+	<link href= "css/styles/main.css" rel= "stylesheet">
+
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 	</head>
 
@@ -36,19 +40,24 @@
 
 		<!-- Here starts the content -->
 
-		<div class="container" style="width:100%;">
-
+		<!-- <div class="container"> -->
 		<!-- <div class="row"> -->
 			<!-- Introduction -->
       <div id="first" class="row">
-        <img src="images/toplogo.png">
-        <p class="add-top-separation">Una plataforma de cooperaci&#243;n nacional para compartir </br>conocimiento, herramientas y recursos que faciliten la publicaci&#243;n </br>de Datos Abiertos en M&#233;xico y potencien su impacto.</p>
+				<div class="col-xs-12">
+	        <img src="images/toplogo.png">
+				</div>
+				<div class="col-xs-12">
+	        <p class="add-top-separation">Una plataforma de cooperaci&#243;n nacional para compartir </br>conocimiento, herramientas y recursos que faciliten la publicaci&#243;n </br>de Datos Abiertos en M&#233;xico y potencien su impacto.</p>
+				</div>
       </div>
 
       <div id="registro" class="row">
         <div class="medium-container">
-          <h2 class="titlebold">Te invitamos a la Inauguración</h2>
           <div class="row event-container">
+						<div class="col-xs-12">
+		          <h2 class="titlebold">Te invitamos a la Inauguración</h2>
+						</div>
             <div class="col-xs-12 col-sm-4 col-md-4">
               <p class="date">Febrero <br> <span class="number">19</span></p>
             </div>
@@ -63,16 +72,18 @@
       <!-- Objectives -->
       <div id="objetivos" class="row">
 				<div class="large-container">
-	        <h2 class="titulo">OBJETIVOS</h2>
-	        <div class="col-md-4">
+					<div class="col-xs-12">
+		        <h2 class="titulo">OBJETIVOS</h2>
+					</div>
+	        <div class="col-xs-12 col-md-4">
 	          <img src="images/pesos.png">
 	          <p class="add-top-separation">Reducir la barrera de entrada y minimizar costos al implementar una iniciativa de Datos Abiertos en municipios y estados.</p>
 	        </div>
-	        <div class="col-md-4">
+	        <div class="col-xs-12 col-md-4">
 	          <img src="images/pais.png">
 	          <p class="add-top-separation">Maximizar los beneficios de una alianza nacional de Datos Abiertos, aprovechando los conocimientos y experiencias de todos.</p>
 	        </div>
-	        <div class="col-md-4">
+	        <div class="col-xs-12 col-md-4">
 	          <img src="images/personas.png">
 	          <p class="add-top-separation">Incentivar la innovaci&#243;n p&#250;blica e impulsar la transparencia, participaci&#243;n ciudadana y el desarrollo econ&#243;mico del pa&#237;s.</p>
 	        </div>
@@ -82,16 +93,18 @@
       <!-- Tools -->
       <div id="herramientas" class="row">
 				<div class="large-container">
-	        <h2 class="titulo">HERRAMIENTAS</h2>
-		      <div class="col-md-4">
+					<div class="col-xs-12">
+		        <h2 class="titulo">HERRAMIENTAS</h2>
+					</div>
+		      <div class="col-xs-12 col-md-4">
 		        <img src="images/herramientas1.png">
 		        <p class="add-top-separation">Con una plataforma compartida para publicar, acceder y utilizar Datos Abiertos en M&#233;xico<a class="linkfooter" href="//datos.gob.mx"> datos.gob.mx</a></p>
 		      </div>
-		      <div class="col-md-4">
+		      <div class="col-xs-12 col-md-4">
 		        <img src="images/herramientas2.png">
 		        <p class="add-top-separation">Con est&#225;ndares y formatos internacionales y homologados para lograr la interoperabilidad de la informaci&#243;n en tres niveles de gobierno.</p>
 		      </div>
-		      <div class="col-md-4">
+		      <div class="col-xs-12 col-md-4">
 		        <img src="images/herramientas3.png">
 		        <p class="add-top-separation">Con una plataforma digital de acompa&#241;amiento e intercambio de experiencias, tutoriales y mejores pr&#225;cticas a nivel federal, estatal y local.</p>
 		      </div>
@@ -100,7 +113,9 @@
 
       <!--  Collaborate -->
       <div id="miembros" class="row">
-        <p class="high-margins">Únete a los estados y municipios miembros</p>
+				<div class="col-xs-12">
+	        <p class="high-margins">Únete a los estados y municipios miembros</p>
+				</div>
 				<div class="col-xs-12">
 	        <img src="images/mapa.png">
 				</div>
@@ -111,12 +126,18 @@
 
 			<!-- Footer -->
       <footer id="footer" class="row">
-        <img class="footer-image" src="images/footerlogo.png">
-        <img src="images/logousaid.png">
-        <p class="add-top-separation"><a class="linkfooter" href=mailto:mexico.abierto@datos.gob.mx>mexico.abierto@datos.gob.mx</a></p>
+				<div class="col-xs-12">
+	        <img class="footer-image" src="images/footerlogo.png">
+				</div>
+				<div class="col-xs-12">
+	        <img src="images/logousaid.png">
+				</div>
+				<div class="col-xs-12">
+	        <p class="add-top-separation"><a class="linkfooter" href=mailto:mexico.abierto@datos.gob.mx>mexico.abierto@datos.gob.mx</a></p>
+				</div>
       </footer>
 		<!-- </div> -->
-	</div>
+	<!-- </div> -->
 
 
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>

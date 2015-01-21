@@ -1,0 +1,15 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+
+.navbar-inverse {
+  background-color: #545554;
+  border-color: #545554;
+}
+
+.navbar-header{
+  margin-top: 12px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #fff;
+  font-size: 12px;
+}
