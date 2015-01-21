@@ -36,6 +36,11 @@ p {
 	font-size: 12px;
 }
 
+.large-container {
+	max-width: 1140px;
+	margin: auto;
+}
+
 .medium-container {
   max-width: 600px;
   margin: auto;
@@ -72,11 +77,18 @@ p {
 
 #miembros {
 	background-color: #00CC99;
-	width: 100%;
 	text-align: center;
 	padding-top: 30px;
 	padding-bottom: 50px;
 }
+
+#footer {
+	background-color: #545554;
+	height: 200px;
+	text-align: center;
+	padding-top: 50px;
+}
+
 
 h2.titulo {
 	font-weight: 700;
@@ -147,20 +159,12 @@ td:hover {
 
 a:hover, a:active, a:focus {
   background-color: transparent;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
-.col-md-4 {
+/*.col-md-4 {
 	text-align: center;
-}
-
-
-.footer {
-	background-color: #545554;
-	height: 200px;
-	text-align: center;
-	padding-top: 50px;
-}
+}*/
 
 .add-top-separation {
 	margin-top: 20px;
@@ -182,7 +186,6 @@ table {
 }
 
 .table {
-	
 	text-align:left;
 }
 
