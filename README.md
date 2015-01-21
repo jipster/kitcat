@@ -1,6 +1,8 @@
 kitcat
 ======
 
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/mxabierto/kitcat?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 El kit de las ciudades abiertas instala automáticamente un paquete de herramientas para ser utilizadas en iniciativas locales de datos abiertos.
 
 ### Principios
