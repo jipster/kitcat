@@ -22,7 +22,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-	      	<img src="images/logo.png">
+          <a href="/"><img src="images/logo.png"></a>
         </div>
 
         <div id="navbar" class="collapse navbar-collapse">
@@ -58,6 +58,7 @@
             </p>
             <a href="https://mxabierto.typeform.com/to/xinCUG" target="_blank" class="btn btn-default">Regístrate aquí</a>
           </div>
+          <a href="#programa" class="scroll-link"><span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span></a>
         </div>
       </div>
 
@@ -65,12 +66,12 @@
       <div id="objetivos" class="row">
         <div class="container">
           <div class="row">
-            <div class="col-md-12">
-              <h2>Programa </h2><br>
+            <div class="col-md-12 high-margins">
+              <h2 id="programa">Programa</h2><br>
 
               <div class="row">
                 <div class="col-sm-8 col-md-4 col-sm-offset-2 col-md-offset-4">
-                  <h3>FEB 19</h3><h4>D&iacute;a 1</h4>
+                  <h3>FEB 19</h3><h4>Día 1</h4>
                 </div>
               </div>
             </div>
@@ -415,5 +416,16 @@
       <script src="offcanvas.js"></script>
       <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
       <script src="js/bootstrap.js"></script>
+      <script>
+        $('a[href^="#"]').on('click', function(event) {
+            var target = $(this.href);
+            if( target.length ) {
+                event.preventDefault();
+                $('html, body').animate({
+                    scrollTop: target.offset().top
+                }, 1000);
+            }
+        });
+      </script>
     </body>
   </html>
